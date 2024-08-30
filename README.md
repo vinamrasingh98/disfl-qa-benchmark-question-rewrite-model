@@ -25,10 +25,11 @@ STEP 1: Install the above packages mentioned
 STEP 2: Follow the steps mentioned in the .ipynb notebook to run the inference code
 
 ##### Note
-1. If using holdout datasets, rename the holdout dataset file as test.json.
-2. All the datasets should follow .json extension
-3. Model is pretrained and uploaded to a private hugging face library which can be run by the private token mentioned in the flant5_inference file.
-4. Use flant5_inference.ipynb notebook for running test and other holdout datasets.
-5. Use flant5_train.ipynb notebook for finetuning the pretrained flant5 model.
-6. Use optuna_hyperparameter_tuning.ipynb notebook for finding the optimized learning rate and weight decay parameters.
-7. Use bertviz_view.ipynb notebook to vizualize the attentions heads of the model.
+1. The dataset files should be in the parent directory.
+2. If using holdout datasets, rename the holdout dataset file as test.json.
+3. All the datasets should follow .json extension.
+4. Model is pretrained and uploaded to a private hugging face library which can be run by the private token mentioned in the flant5_inference file.
+5. Use flant5_inference.ipynb notebook for running test and other holdout datasets.
+6. Use flant5_train.ipynb notebook for finetuning the pretrained flant5 model.
+7. Use optuna_hyperparameter_tuning.ipynb notebook for finding the optimized learning rate and weight decay parameters.
+8. Use bertviz_view.ipynb notebook to vizualize the attentions heads of the model.
