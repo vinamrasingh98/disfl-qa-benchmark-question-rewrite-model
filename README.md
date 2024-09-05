@@ -1,8 +1,6 @@
 # Disfl-qa-benchmark-question-rewrite-model
 
-The project is facial-expression-recognition system using ResNext to identify a person's emotions and send mood feedback report/detailed mood analysis report to make him/her joyful. The project classifies the person’s emotions into five categories: happy, sad, angry, surprised, and neutral. For more detail you can refer our research paper: [EmotionNet: ResNeXt Inspired CNN Architecture for Emotion Analysis on Raspberry Pi](https://ieeexplore.ieee.org/document/9573569)
-
-The classifier network was trained on the FERPlus dataset. An interactive GUI platform was designed using KivyMD to control the overall system. 
+This project presents the development of a question rewrite model aimed at improving disfluency handling in the DISFL-QA benchmark dataset, a derivative of SQuADv2 that introduces contextual disfluencies to challenge existing Question Answering (QA) systems. We implemented and evaluated sequence-to-sequence models—BART, T5, and Flan-T5—designed to convert disfluent questions into fluent ones. The models were fine-tuned on the DISFL-QA dataset, with Flan-T5 demonstrating the highest performance, achieving BLEU and BERT F1 scores of 90.54 and 0.99, respectively.
 
 
 ## Requirements
